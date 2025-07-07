@@ -1,5 +1,7 @@
 # Auth Service Attack
 
+This is a write-up from the 48 hour competition Hackintro 2025 (Homework 3).
+
 This section covers the attack against the Auth service in the HackIntro 2025 Attack-Defense CTF. We identified a prefix matching vulnerability due to improper use of `strncmp`, allowing us to bypass authentication and retrieve flags from other teams.
 
 ## Copying the binary locally 
